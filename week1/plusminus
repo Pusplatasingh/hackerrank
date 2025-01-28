@@ -9,7 +9,7 @@ def calculate_ratios(arr):
         elif num < 0:
             neg += 1
         else:
-            z += 1
+            zero += 1
 # n is total no. of element
     neg = len(arr)
     pos_r = pos / n
