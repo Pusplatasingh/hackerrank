@@ -11,7 +11,7 @@ def calculate_ratios(arr):
         else:
             zero += 1
 # n is total no. of element
-    neg = len(arr)
+    n = len(arr)
     pos_r = pos / n
     neg_r= neg/ n
     zero_r = zero/ n
