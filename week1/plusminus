@@ -1,30 +1,30 @@
 def calculate_ratios(arr):
-    p=0     # p=count of +ve no
-    ne=0    # ne=count of -ve no
-    z=0     # z=count of 0s
+    pos=0     # pos=count of +ve no
+    neg=0    # neg=count of -ve no
+    zero=0     # zero=count of 0s
 # check no. of positive negative and zero present in array
     for num in arr:
         if num > 0:
-            p += 1
+            pos += 1
         elif num < 0:
-            ne += 1
+            neg += 1
         else:
             z += 1
 # n is total no. of element
-    n = len(arr)
-    p_r = p / n
-    n_r= ne/ n
-    z_r = z/ n
+    neg = len(arr)
+    pos_r = pos / n
+    neg_r= neg/ n
+    zero_r = zero/ n
 
-    return p_r, n_r, z_r
+    return pos_r, neg_r, zero_r
 
-def print_ratios(p_r, n_r, z_r):
-    print(f"{p_r:.6f}")
-    print(f"{n_r:.6f}")
-    print(f"{z_r:.6f}")
+def print_ratios(pos_r, neg_r, zero_r):
+    print(f"{pos_r:.6f}")
+    print(f"{neg_r:.6f}")
+    print(f"{zero_r:.6f}")
 
 n = int(input())
 arr = list(map(int, input().split()))
 
-p_r, n_r, z_r = calculate_ratios(arr)
-print_ratios(p_r, n_r, z_r)
+pos_r, neg_r, zero_r = calculate_ratios(arr)
+print_ratios(pos_r, neg_r, zero_r)
