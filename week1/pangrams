@@ -1,5 +1,7 @@
-#Questions: Check Pangram
+#Questions: Check Pangram(A pangram is a string that contains every letter of the alphabet.(abcdefghijklmnopqrstuvwxyz).
+
 #Answer
+
 def pangrams(s):
     return "pangram" if set('abcdefghijklmnopqrstuvwxyz') <= set(s.lower()) else "not pangram"
 
