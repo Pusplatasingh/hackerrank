@@ -1,4 +1,5 @@
-#Question: Two Arrays
+#Question: Two Arrays(A,B)
+
 #Answer
 def twoArrays(k, A, B):
     A.sort()
