@@ -22,6 +22,7 @@
 # 10 14
 
 #Answer
+
 def miniMaxSum(arr):
     
     total_sum = sum(arr)
