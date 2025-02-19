@@ -1,6 +1,6 @@
-#Question Matching Strings 
+#Question 
 
-#solution
+#Answer
 
 def matchingStrings(strings, queries):
     
