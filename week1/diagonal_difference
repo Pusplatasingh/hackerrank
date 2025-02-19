@@ -1,6 +1,7 @@
 #Question
 
 #Answer
+
 def diagonalDifference(arr):
     n = len(arr)
     primary_diagonal_sum = 0
