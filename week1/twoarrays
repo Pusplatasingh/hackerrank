@@ -1,6 +1,7 @@
 #Question: Two Arrays(A,B) 
 
 #Answer 
+
 def twoArrays(k, A, B):
     A.sort()
     B.sort(reverse=True)
