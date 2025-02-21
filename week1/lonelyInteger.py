@@ -1,4 +1,5 @@
-#Question 
+#Question
+
 #Answer
 
 def lonelyinteger(a):
