@@ -1,4 +1,5 @@
-#Questions: Check Pangram(A pangram is a string that contains every letter of the alphabet.(abcdefghijklmnopqrstuvwxyz).
+# Questions
+# Check Pangram(A pangram is a string that contains every letter of the alphabet.(abcdefghijklmnopqrstuvwxyz).
 
 #Answer
 
