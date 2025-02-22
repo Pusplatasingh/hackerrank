@@ -1,5 +1,6 @@
 #Question
 
+#Answer
 
 def counterGame(n):
     turn = 0
