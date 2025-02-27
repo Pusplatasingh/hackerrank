@@ -1,7 +1,6 @@
 #Question
 
 #Answer
-
 def countingSort(arr):
     frequency = [0] * 100  
     
