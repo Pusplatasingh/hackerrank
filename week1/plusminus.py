@@ -1,7 +1,6 @@
 #Question 
 
 #Answer
-
 def calculate_ratios(arr):
     pos=0     # pos=count of +ve no
     neg=0    # neg=count of -ve no
