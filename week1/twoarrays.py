@@ -1,4 +1,4 @@
-#Question: Two Arrays(A,B) 
+#Question
 
 #Answer 
 
