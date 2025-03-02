@@ -1,5 +1,4 @@
 #Question 
-
 #Answer
 def calculate_ratios(arr):
     pos=0     # pos=count of +ve no
