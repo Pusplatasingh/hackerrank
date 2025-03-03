@@ -1,5 +1,4 @@
 #Question
-
 #Answer
 def sumXor(n):
     count_of_zeros = 0
