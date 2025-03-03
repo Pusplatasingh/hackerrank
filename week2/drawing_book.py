@@ -1,5 +1,4 @@
 #Question
-
 #Answer
 def pageCount(n, p):
     from_front = p // 2
