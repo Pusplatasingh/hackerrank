@@ -1,5 +1,4 @@
 #Question
-
 #Answer
 def sockMerchant(n, ar):
     from collections import Counter
