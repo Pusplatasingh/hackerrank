@@ -1,5 +1,3 @@
-#Question
-#Answer
 def counterGame(n):
     turn = 0
     while n > 1:
