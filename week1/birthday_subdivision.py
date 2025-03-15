@@ -1,6 +1,5 @@
 #Question
 
-#Answer
 def birthday(s, d, m):
     count = 0
     
