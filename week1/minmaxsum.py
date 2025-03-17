@@ -1,7 +1,5 @@
 #Question
 
-#Answer
-
 def miniMaxSum(arr):
     
     total_sum = sum(arr)
