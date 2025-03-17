@@ -1,5 +1,4 @@
 def miniMaxSum(arr):
-    
     total_sum = sum(arr)
 
     min_value = min(arr)
