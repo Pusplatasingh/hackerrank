@@ -1,6 +1,6 @@
 #Question 
 
-#Answer
+
 def matchingStrings(strings, queries):
     
     string_count = {s: strings.count(s) for s in set(strings)}
