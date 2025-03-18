@@ -1,4 +1,4 @@
-# Questions
+
 def pangrams(s):
     return "pangram" if set('abcdefghijklmnopqrstuvwxyz') <= set(s.lower()) else "not pangram"
 
