@@ -1,4 +1,3 @@
-
 def calculate_ratios(arr):
     pos=0     
     neg=0    
