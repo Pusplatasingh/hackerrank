@@ -1,5 +1,4 @@
 #Question
-
 def timeConversion(s):
     period = s[-2:]
     time = s[:-2]
