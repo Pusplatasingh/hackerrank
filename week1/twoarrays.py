@@ -1,5 +1,4 @@
 #Question
-
 def twoArrays(k, A, B):
     A.sort()
     B.sort(reverse=True)
