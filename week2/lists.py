@@ -1,5 +1,5 @@
 #Question 
-#A
+
 if __name__ == '__main__':
     my_list = []
     N = int(input())
