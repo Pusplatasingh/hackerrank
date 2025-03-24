@@ -1,5 +1,4 @@
 #Question
-
 def sockMerchant(n, ar):
     from collections import Counter
     color_count = Counter(ar)
