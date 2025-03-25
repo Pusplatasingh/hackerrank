@@ -1,4 +1,3 @@
-
 def sumXor(n):
     count_of_zeros = 0
     while n > 0:
