@@ -1,4 +1,4 @@
-#Question
+#Que
 def flippingBits(n):
     mask = 0xFFFFFFFF
     return n ^ mask
