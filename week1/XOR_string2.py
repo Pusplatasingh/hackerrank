@@ -1,4 +1,4 @@
-#Question
+#Quest
 def strings_xor(s, t):
     res = ""
     for i in range(len(s)):
