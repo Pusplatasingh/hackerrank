@@ -6,7 +6,6 @@ def strings_xor(s, t):
         else:
             res += '1'
     return res
-
 s = input()
 t = input()
 print(strings_xor(s, t))
