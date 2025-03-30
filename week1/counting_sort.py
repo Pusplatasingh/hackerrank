@@ -3,7 +3,6 @@ def countingSort(arr):
     for number in arr:
         frequency[number] += 1 
     return frequency
-
 if __name__ == "__main__":
     n = int(input())
     arr = list(map(int, input().split()))
