@@ -5,7 +5,6 @@ def diagonalDifference(arr):
     for i in range(n):
         primary_diagonal_sum += arr[i][i]
         secondary_diagonal_sum += arr[i][n - 1 - i]
-
     return abs(primary_diagonal_sum - secondary_diagonal_sum)
 
 if __name__ == "__main__":
