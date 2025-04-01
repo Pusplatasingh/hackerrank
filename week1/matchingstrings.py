@@ -1,5 +1,4 @@
 def matchingStrings(strings, queries):
-
     string_count = {s: strings.count(s) for s in set(strings)}
     return [string_count.get(query, 0) for query in queries]
 
