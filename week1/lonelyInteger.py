@@ -1,4 +1,5 @@
 def lonelyinteger(a):
+    
     unique = 0
     for number in a:
         unique ^= number
