@@ -6,7 +6,6 @@ if __name__ == "__main__":
     strings = [input().strip() for _ in range(n)]
     q = int(input())
     queries = [input().strip() for _ in range(q)]
-    
     results = matchingStrings(strings, queries)
     for result in results:
         print(result)
