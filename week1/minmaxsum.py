@@ -8,7 +8,6 @@ def miniMaxSum(arr):
     max_sum = total_sum - min_value
     
     print(min_sum, max_sum)
-    
 input_data = input()  
 arr = list(map(int, input_data.split())) 
 miniMaxSum(arr)
