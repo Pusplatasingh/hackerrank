@@ -12,4 +12,4 @@ def miniMaxSum(arr):
 
 input_data = input()  
 arr = list(map(int, input_data.split())) 
-miniMaxSum(arr)  
+miniMaxSum(arr)
