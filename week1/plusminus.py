@@ -9,7 +9,6 @@ def calculate_ratios(arr):
             neg += 1
         else:
             zero += 1
-
     n = len(arr)
     pos_r = pos / n
     neg_r= neg/ n
