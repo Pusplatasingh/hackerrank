@@ -13,7 +13,6 @@ def calculate_ratios(arr):
     pos_r = pos / n
     neg_r= neg/ n
     zero_r = zero/ n
-
     return pos_r, neg_r, zero_r
 
 def print_ratios(pos_r, neg_r, zero_r):
