@@ -2,7 +2,7 @@ def timeConversion(s):
     period = s[-2:]
     time = s[:-2]
     hours, minutes, seconds = map(int, time.split(':'))
-  
+
     if period == 'AM':
         if hours == 12:
             hours = 0  
