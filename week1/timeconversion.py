@@ -9,7 +9,7 @@ def timeConversion(s):
     else:  
         if hours != 12:
             hours += 12  
-    
+
     return f"{hours:02}:{minutes:02}:{seconds:02}"
 input_time = input( )
 output_time = timeConversion(input_time)
