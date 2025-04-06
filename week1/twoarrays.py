@@ -1,7 +1,7 @@
 def twoArrays(k, A, B):
     A.sort()
     B.sort(reverse=True)
-    return "Yes" if all(a + b >= k for a, b in zip(A, B)) else "NO"
+    return "Yes" if all(a + b >= k for a, b in zip(A, B)) else "No"
 if __name__ == "__main__":
     q = int(input())
     for _ in range(q):
