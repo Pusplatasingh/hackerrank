@@ -10,7 +10,6 @@ def counterGame(n):
             n -= power >> 1
         turn ^= 1
     return "Richard" if turn == 0 else "Louise"
-
 if __name__ == "__main__":
     t = int(input())
     for _ in range(t):
