@@ -1,6 +1,6 @@
 def pageCount(n, p):
     front = p // 2
-    from_back = (n // 2) - (p // 2)
+    back = (n // 2) - (p // 2)
     return min(from_front, from_back)
 
 if __name__ == "__main__":
