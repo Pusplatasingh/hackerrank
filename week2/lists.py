@@ -1,7 +1,6 @@
 if __name__ == '__main__':
     my_list = []
     N = int(input())
-
     for _ in range(N):
         command = input().strip().split()
         if command[0] == 'insert':
