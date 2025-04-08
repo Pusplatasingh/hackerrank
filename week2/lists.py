@@ -4,7 +4,7 @@ if __name__ == '__main__':
     
     for _ in range(N):
         command = input().strip().split()
-    
+
         if command[0] == 'insert':
             i = int(command[1])
             e = int(command[2])
