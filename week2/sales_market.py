@@ -1,6 +1,6 @@
 def sockMerchant(n, ar):
     from collections import Counter
-    color_count = Counter(ar)
+    color_= Counter(ar)
     return sum(count // 2 for count in color_count.values())
 if __name__ == "__main__":
     n = int(input())
