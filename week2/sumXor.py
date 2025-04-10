@@ -5,7 +5,6 @@ def sumXor(n):
             count_of_zeros += 1
         n >>= 1  
     return 1 << count_of_zeros 
-
 if __name__ == "__main__":
     n = int(input())
     result = sumXor(n)
